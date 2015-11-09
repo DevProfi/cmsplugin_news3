@@ -28,6 +28,7 @@ Installation
 * ``pip install cmsplugin_news3``
 * add ``filer``, ``easy_thumbnails``, ``cmsplugin_news3`` to INSTALLED_APPS
 * run ``./manage.py syncdb`` and ``./manage.py migrate``
+* add to urls.py url(r'^', include('cmsplugin_news3.urls'))
 * restart server 
 
 Usage
